@@ -17,7 +17,7 @@ Here are the technologies used in this project.
 
 ## 🛠️ Abrir e rodar o projeto
 
-**O primeiro passo é clonar o repositório através do GitHub em sua máquina. Após a clonagem ative seu ambiente virtual, através do terminal instale e gerencie os pacotes de software(Todos estão informados e especificados dentro da pasta requirements.txt)**
+**O primeiro passo é clonar o repositório através do GitHub em sua máquina. Após a clonagem crie e ative seu ambiente virtual (venv), através do terminal instale e gerencie os pacotes de software(Todos estão informados e especificados dentro da pasta requirements.txt)**
 
 
 ## Services Used
