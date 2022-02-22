@@ -19,8 +19,8 @@
 
         <div class="form-group">
 
-            <input type="text" class="form-control" name="search" placeholder="Enter IP Address">
-
+            {% comment %} <input type="text" class="form-control" name="search" placeholder="Enter IP Address"> {% endcomment %}
+            {{ form }}
 
         </div>
 
@@ -31,23 +31,6 @@
 
     <br>
     <br>
-
-
-    <p>IP Address is : {{data.ip}}</p>
-     <p>City Location is : {{data.city}}</p>
-    <p>IP Country is : {{data.country}}</p>
-
-    <p>Available Language is : {{data.languages}}</p>
-    <p>Latitude Information Is : {{data.latitude}}</p>
-   <p>Longitude Information Is : {{data.longitude}}</p>
-   <p>Time Zone Information Is : {{data.timezone}}</p>
-   <p>Availble Calling Code : {{data.country_calling_code}}</p>
-   <p>Available Currency Is : {{data.currency}}</p>
-   <p>Internet Network Is : {{data.org}}</p>
-     <p>Continent Code Is : {{data.continent_code}}</p>
-   <p>Postal Code Is : {{data.postal}}</p>
-     <p>UTC Offset Is : {{data.utc_offset}}</p>
-
 </div>
 
 {%  endblock %}

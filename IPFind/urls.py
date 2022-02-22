@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import Index
+from .views import index, retorna_resultado
 
 urlpatterns = [
-    path('', Index, name = 'index'),
-
+    path('', index, name = 'index'),
+    path('historico/', retorna_resultado, name = 'retorna_resultado'),
 ]

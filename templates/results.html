@@ -17,7 +17,14 @@
     <h1>History</h1>
     {% if datas %}
         {% for i in datas %}
-            <p>{{i}}</p>
+            <p>IP Address is : {{i.query}}</p>
+            <p>City Location is : {{i.city}}</p>
+            <p>IP Country is : {{i.country}}</p>
+            <p>Latitude Information Is : {{i.lat}}</p>
+            <p>Longitude Information Is : {{i.lon}}</p>
+            <p>Time Zone Information Is : {{i.timezone}}</p>
+            <p>Internet Network Is : {{i.org}}</p>
+            <br><br>
         {% endfor %}
     {% endif %}
 </body>
