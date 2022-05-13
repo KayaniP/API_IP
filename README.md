@@ -25,6 +25,6 @@ Here are the technologies used in this project.
 
 ## Authors
 
-* **Kayani Pereira**: @YOUR_GITHUB_KAYANIP (https://github.com/KayaniP)
+* **Kayani Pereira**: @KAYANIP (https://github.com/KayaniP)
 
 Thanks to visiting me and good coding!
